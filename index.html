@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FannyMz Ecommerse</title>
+
+    <!-- box icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="https://instagram.com/is_fanny_a03?igshid=OGQ5ZDc2ODk2ZA==">
+          <img src="images/shopping-bag-icon.png" alt="site icon" />
+          <span class="text-uppercase fw-lighter ms-2">FannyMz</span>
+        </a>
+
+        <div class="order-lg-2 nav-btns">
+          <button type="button" class="btn position-relative">
+            <div class="input-group">
+              <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ..."/>
+              <div class="input-group-text">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </button>
+
+          <a href="signup.html" style="text-decoration: none">
+            <button type="button" class="btn position-relative">
+              <i class="fa fa-user"></i>
+            </button>
+          </a>
+          <button type="button" class="btn position-relative">
+            <i class="fa fa-shopping-cart"></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge bg-primary"
+              >5</span
+            >
+          </button>
+        </div>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="#header">Beranda</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="tentang.html">Tentang</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="produk.html">Produk</a>
+            </li>
+            <li class="nav-item px-2 py-2">
+              <a class="nav-link text-uppercase text-dark" href="review.html">Review</a>
+            </li>
+            <li class="nav-item px-2 py-2 border-0">
+              <a class="nav-link text-uppercase text-dark" href="kontak.html">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px">
+      <div class="container h-100 d-flex align-items-center carousel-inner">
+        <div class="text-center carousel-item active">
+          <h2 class="text-capitalize text-dark">best collection</h2>
+          <h1 class="text-uppercase py-2 fw-bold text-dark">new arrivals</h1>
+          <a href="produk.html" class="btn mt-3 text-uppercase">shop now</a>
+        </div>
+
+        <div class="text-center carousel-item">
+          <h2 class="text-capitalize text-dark">best price & offer</h2>
+          <h1 class="text-uppercase py-2 fw-bold text-dark">new season</h1>
+          <a href="produk.html" class="btn mt-3 text-uppercase">buy now</a>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </header>
+    <!-- end of header -->
+
+    <!-- about us -->
+    <section id="tentang" class="py-5">
+      <div class="container">
+        <div class="row gy-lg-5 align-items-center">
+          <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+            <div class="title pt-3 pb-5">
+              <h2 class="position-relative d-inline-block ms-4">Tentang</h2>
+            </div>
+            <p class="lead text-muted">
+              Fashion merupakan seni yang diekspresikan melalui pakaian yang
+              dikenakannya. Sebagian orang mengikuti trend fashion dan
+              menjadikan bagian dari gaya hidupnya.<br />
+              <br />
+              Sebagai pecinta fashion, tidak ada salahnya jika kamu menjadikan
+              toko FannyMz sebagai toko fashion yang terbaik.
+            </p>
+          </div>
+          <div class="col-lg-6 order-lg-0">
+            <img src="images/about_us.png" style="width: 450px; height: 400px" class="img-fluid"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of about us -->
+
+    <!-- collection -->
+    <section id="produk" class="py-5">
+      <div class="container">
+        <div class="title text-center">
+          <h2 class="position-relative d-inline-block">New Collection</h2>
+        </div>
+
+        <div class="row g-0">
+          <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+            <button type="button" class="btn m-2 text-dark active-filter-btn" data-filter="*">All</button>
+            <button type="button" class="btn m-2 text-dark" data-filter=".baik">Best Sellers</button>
+            <button type="button" class="btn m-2 text-dark" data-filter=".bagus">Featured </button>
+            <button type="button" class="btn m-2 text-dark" data-filter=".baru">New Arrival</button>
+          </div>
+
+          <div class="collection-list mt-4 row gx-0 gy-3">
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 baik">
+              <div class="collection-img position-relative">
+                <img src="images/c_formal_gray_shirt.png" class="w-100" />
+                <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+              </div>
+
+              <div class="text-center">
+                <div class="rating mt-3">
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                </div>
+                <p class="text-capitalize my-1">Blouse</p>
+                <span class="fw-bold">Rp. 130k</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 bagus">
+              <div class="collection-img position-relative">
+                <img src="images/c_pant_girl.png" class="w-100" />
+                <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+              </div>
+
+              <div class="text-center">
+                <div class="rating mt-3">
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                </div>
+                <p class="text-capitalize my-1">Jeans Boyfriend</p>
+                <span class="fw-bold">Rp. 210k</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 baru">
+              <div class="collection-img position-relative">
+                <img src="images/c_polo-shirt.png" class="w-100" />
+                <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+              </div>
+
+              <div class="text-center">
+                <div class="rating mt-3">
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                </div>
+                <p class="text-capitalize my-1">Manset</p>
+                <span class="fw-bold">Rp. 45k</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 baik">
+              <div class="collection-img position-relative">
+                <img src="images/c_shirt-girl.png" class="w-100" />
+                <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+              </div>
+              <div class="text-center">
+                <div class="rating mt-3">
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                </div>
+                <p class="text-capitalize my-1">CropTop</p>
+                <span class="fw-bold">Rp. 70k</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 bagus">
+              <div class="collection-img position-relative">
+                <img src="images/c_t-shirt_men.png" class="w-100" />
+                <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+              </div>
+              <div class="text-center">
+                <div class="rating mt-3">
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                </div>
+                <p class="text-capitalize my-1">Cardigan</p>
+                <span class="fw-bold">Rp. 95k</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 baru">
+              <div class="collection-img position-relative">
+                <img src="images/c_tunic-shirt_girl.png" class="w-100" />
+                <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+              </div>
+              <div class="text-center">
+                <div class="rating mt-3">
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                </div>
+                <p class="text-capitalize my-1">Kemeja</p>
+                <span class="fw-bold">Rp. 156k</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 baik">
+              <div class="collection-img position-relative">
+                <img src="images/c_undershirt.png" class="w-100" />
+                <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+              </div>
+              <div class="text-center">
+                <div class="rating mt-3">
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                </div>
+                <p class="text-capitalize my-1">Blouse Tutul</p>
+                <span class="fw-bold">Rp. 77k</span>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 bagus">
+              <div class="collection-img position-relative">
+                <img src="images/c_western-shirt.png" class="w-100" />
+                <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+              </div>
+              <div class="text-center">
+                <div class="rating mt-3">
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                  <span class="text-primary"><i class="fas fa-star"></i></span>
+                </div>
+                <p class="text-capitalize my-1">Blouse Lady</p>
+                <span class="fw-bold">Rp. 120k</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of collection -->
+
+    <!-- blogs -->
+    <section id="offers" class="py-5">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center text-center justify-content-lg-start text-lg-start">
+          <div class="offers-content">
+            <span class="text-white">Discount Up To 40%</span>
+            <h2 class="mt-2 mb-4 text-white">Grand Sale Offer!</h2>
+            <a href="produk.html" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of blogs -->
+
+    <!-- blogs -->
+    <section id="review" class="py-5">
+      <div class="container">
+        <div class="title text-center py-5">
+          <h2 class="position-relative d-inline-block">Customer Review</h2>
+        </div>
+
+        <div class="row g-3">
+          <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+            <img src="images/foto1.jpg" style="height: 250px; width: 350px" />
+            <div class="card-body px-0">
+              <p class="card-text mt-3 text-muted">
+                Model bagus, bahannya halus dan juga cocok buat acara apapun.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  <span class="fw-bold">Author: </span>Kim So Hyun
+                </small>
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+
+          <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+            <img src="images/foto2.png" style="height: 250px; width: 350px" />
+            <div class="card-body px-0">
+              <p class="card-text mt-3 text-muted">
+                cocok buat mix and macth dan fashionable antara celana jeans dan
+                kemeja.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  <span class="fw-bold">Author: </span>Vachirawit
+                </small>
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+
+          <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+            <img src="images/foto3.jpg" style="height: 250px; width: 350px" />
+            <div class="card-body px-0">
+              <p class="card-text mt-3 text-muted">
+                Bahannya lembut dan nyaman digunakan serta perpaduan warnanya
+                sangat cocok.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  <span class="fw-bold">Author: </span>Christina
+                </small>
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of blogs -->
+
+    <!-- newsletter -->
+    <section id="kontak" class="py-5">
+      <div class="container">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <div class="title text-center pt-3 pb-5">
+            <h2 class="position-relative d-inline-block ms-4">Kontak</h2>
+          </div>
+
+          <div class="input-group mb-3 mt-3">
+            <input type="email" class="form-control" placeholder="Enter Your Email ..."/>
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of newsletter -->
+
+    <!-- footer -->
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row text-white g-4">
+          <div class="col-md-6 col-lg-3">
+            <a class="text-uppercase text-decoration-none brand text-white" href="index.html">FannyMz</a><br /><br />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.0991093172322!2d109.66688086948174!3d-6.962473368349256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70235a3634581d%3A0xab5bafb646e14470!2sRias%20Eli!5e0!3m2!1sid!2sid!4v1697986030393!5m2!1sid!2sid" width="250" height="200" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class="fw-light">Links</h5>
+            <ul class="list-unstyled">
+              <li class="my-3">
+                <a href="index.html" class="text-white text-decoration-none text-muted">
+                  <i class="fas fa-chevron-right me-1"></i> Beranda</a>
+              </li>
+              <li class="my-3">
+                <a href="tentang.html" class="text-white text-decoration-none text-muted">
+                  <i class="fas fa-chevron-right me-1"></i> Tentang</a>
+              </li>
+              <li class="my-3">
+                <a href="produk.html" class="text-white text-decoration-none text-muted">
+                  <i class="fas fa-chevron-right me-1"></i> Produk</a>
+              </li>
+              <li class="my-3">
+                <a href="review.html" class="text-white text-decoration-none text-muted">
+                  <i class="fas fa-chevron-right me-1"></i> Review</a>
+              </li>
+              <li class="my-3">
+                <a href="kontak.html" class="text-white text-decoration-none text-muted">
+                  <i class="fas fa-chevron-right me-1"></i> Kontak</a>
+              </li>
+              <li class="my-3">
+                <a href="signup.html"class="text-white text-decoration-none text-muted">
+                  <i class="fas fa-chevron-right me-1"></i> Signup</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class="fw-light mb-3">Kontak</h5>
+            <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+              <span class="me-3">
+                <i class="fas fa-map-marked-alt"></i>
+              </span>
+              <span class="fw-light">Salakbrojo Kec.Kedungwuni Kab.Pekalongan Prov.Jawa Tengah</span>
+            </div>
+
+            <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+              <span class="me-3">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="fw-light"> FannyMz.support@gmail.com </span>
+            </div>
+
+            <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+              <span class="me-3">
+                <i class="fas fa-phone-alt"></i>
+              </span>
+              <span class="fw-light"> +62857-2516-0293 </span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <h5 class="fw-light mb-3">Follow Us</h5>
+            <div>
+              <ul class="list-unstyled d-flex">
+                <li>
+                  <a href="https://www.facebook.com/ar.ina.98892" class="text-white text-decoration-none text-muted fs-4 me-4">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://wa.me/085725160293" class="text-white text-decoration-none text-muted fs-4 me-4">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/is_fanny_a03?igshid=OGQ5ZDc2ODk2ZA==" class="text-white text-decoration-none text-muted fs-4 me-4">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/Ispaniyah" class="text-white text-decoration-none text-muted fs-4 me-4">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <a href="index.html" class="scroll">
+      <img src="images/panah.png" alt="" />
+    </a>
+
+    <!-- jquery -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
